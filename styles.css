@@ -388,17 +388,107 @@ body {
 
 .product3 {
     display: inline-block;
-    padding-bottom: 15px;
+    padding-bottom: 22px;
     padding-right: 15px;
 }
 
 .promo4 {
     position: absolute;
     left: 20px;
+    text-align: center;
     display: inline-block;
     margin-left: 100%;
     position: relative;
     width: 570px;
     height: 570px;
     margin-bottom: 120px;
+}
+
+
+.mob_app {
+    position: relative;
+    margin-top: 240px;
+    width: 1366px;
+    height: 516px;
+    background-image: url(img/back-img.jpg);
+}
+
+.mob_p {
+    position: absolute;
+    top: 125px;
+    left: 99px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.mob_h2 {
+    position: absolute;
+    top: 160px;
+    left: 106px;
+    width: 407px;
+    font-size: 62px;
+    font-weight: 200;
+    line-height: 72px;
+    text-align: left;
+    color: #212121;
+}
+
+.mob_content {
+    position: absolute;
+    top: 302px;
+    left: 99px;
+    margin-top: 26px;
+    height: 413px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.app-store {
+    position: absolute;
+    top: 56px;
+    left: 1px;
+}
+
+.Google_Play {
+    position: absolute;
+    top: 56px;
+    left: 141px;
+}
+
+.footer {
+    margin-bottom: 10px;
+    background-color: #8c8c8c;
+    width: 1366px;
+    height: 384px;
+}
+
+.footer_p {
+    display: inline-block;
+    margin-top: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.footer_p1 {
+    margin-left: 98px;
+}
+
+.footer-adress {
+    margin-top: 157px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    color: #212121;
 }
