@@ -268,6 +268,7 @@ body {
     text-align: left;
     color: #212121;
     text-transform: uppercase;
+    margin-bottom: 64px;
 }
 
 .explore_all2 {
@@ -281,10 +282,88 @@ body {
     text-align: center;
     color: #212121;
     text-transform: uppercase;
+    margin-bottom: 64px;
 }
 
 .arrow2 {
     position: absolute;
     top: 14px;
     left: 1265px;
+    margin-bottom: 64px;
+}
+
+.product2 {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+.hot-deals_block {
+    position: relative;
+    margin-top: 120px;
+    width: 1366px;
+    height: 800px;
+    background-image: url(img/slider.jpg);
+}
+
+.hot_deal {
+    position: absolute;
+    top: 287px;
+    left: 97px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #e53935;
+}
+
+.slider2-h2 {
+    position: absolute;
+    top: 322px;
+    left: 106px;
+    font-size: 62px;
+    font-weight: 100;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.slider-content2 {
+    position: absolute;
+    top: 399px;
+    left: 98px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button3 {
+    position: absolute;
+    top: 469px;
+    left: 98px;
+    margin-top: 32px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    text-decoration: none;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    display: inline-block;
+    letter-spacing: 3.6px;
+}
+
+.pagination2 {
+    width: 1170px;
+    bottom: 19px;
+    position: absolute;
+    text-align: center;
 }
