@@ -303,6 +303,7 @@ body {
     width: 1366px;
     height: 800px;
     background-image: url(img/slider.jpg);
+    margin-bottom: 120px;
 }
 
 .hot_deal {
@@ -366,4 +367,38 @@ body {
     bottom: 19px;
     position: absolute;
     text-align: center;
+}
+
+.product_lg {
+    margin: 0 auto;
+    width: 1170px;
+    height: 570px;
+}
+
+.promo3 {
+    position: absolute;
+    top: 120px;
+    display: inline-block;
+    position: relative;
+    width: 570px;
+    height: 570px;
+    background-image: url(img/product-1-lg.jpg);
+    margin-bottom: 120px;
+}
+
+.product3 {
+    display: inline-block;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.promo4 {
+    position: absolute;
+    left: 20px;
+    display: inline-block;
+    margin-left: 100%;
+    position: relative;
+    width: 570px;
+    height: 570px;
+    margin-bottom: 120px;
 }
