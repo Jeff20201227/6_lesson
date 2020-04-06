@@ -303,7 +303,6 @@ body {
     width: 1366px;
     height: 800px;
     background-image: url(img/slider.jpg);
-    margin-bottom: 120px;
 }
 
 .hot_deal {
@@ -462,16 +461,16 @@ body {
     left: 141px;
 }
 
-.footer {
-    margin-bottom: 10px;
-    background-color: #8c8c8c;
+
+footer {
+    position: relative;
     width: 1366px;
     height: 384px;
+    background-color: #f7f7f7;
 }
 
 .footer_p {
     display: inline-block;
-    margin-top: 120px;
     font-size: 18px;
     font-weight: bold;
     line-height: 48px;
@@ -481,14 +480,138 @@ body {
 }
 
 .footer_p1 {
-    margin-left: 98px;
+    position: absolute;
+    top: 120px;
+    left: 98px;
 }
 
+.footer_p2 {
+    position: absolute;
+    top: 120px;
+    left: 399px;
+}
+
+.footer_p3 {
+    position: absolute;
+    top: 120px;
+    left: 899px;
+}
+
+
 .footer-adress {
-    margin-top: 157px;
+    display: inline-block;
+    position: absolute;
+    top: 157px;
+    left: 97px;
+    padding-top: 24px;
+    width: 221px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 22px;
     text-align: left;
     color: #212121;
+}
+
+.footer_links_1_3 {
+    width: 132px;
+    display: inline-block;
+    position: absolute;
+    top: 158px;
+    left: 398px;
+    padding-top: 25px;
+}
+
+.footer_links_4_6 {
+    width: 187px;
+    display: inline-block;
+    position: absolute;
+    top: 158px;
+    left: 633px;
+    padding-top: 25px;
+}
+
+.footer_links_1_3 a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+}
+
+.footer_links_4_6 a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+}
+
+.subs {
+    display: inline-block;
+    width: 363px;
+    position: absolute;
+    top: 157px;
+    left: 898px;
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #212121;
+}
+
+input[type=EMail] {
+    text-align: left;
+    position: absolute;
+    top: 236px;
+    left: 898px;
+    width: 370px;
+    height: 48px;
+    margin-right: 98px;
+}
+
+.footer-text1 {
+    position: absolute;
+    top: 336px;
+    left: 98px;
+    width: 362px;
+    height: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.footer-text2 {
+    position: absolute;
+    top: 334px;
+    left: 919px;
+    width: 350px;
+    height: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 26px;
+    letter-spacing: 0.6px;
+    text-align: right;
+    color: #6c6c6c;
+}
+
+.telegram {
+    position: absolute;
+    top: 255px;
+    left: 1233px;
+}
+
+.social_links {
+    position: absolute;
+    top: 326px;
+    left: 618px;
+    width: 129px;
+    height: 28px;
 }
