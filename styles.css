@@ -246,6 +246,7 @@ body {
     height: 270px;
     background-color: #ffffff;
     opacity: 0.8;
+    overflow: hidden;
 }
 
 .block_product:hover {
@@ -548,6 +549,7 @@ footer {
     width: 1366px;
     height: 384px;
     background-color: #f7f7f7;
+    overflow: hidden;
 }
 
 .footer_p {
