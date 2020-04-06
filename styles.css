@@ -193,8 +193,8 @@ body {
 
 .product_h2 {
     position: absolute;
-    top: 348px;
-    left: 161px;
+    top: 129px;
+    left: 63px;
     font-size: 22px;
     font-weight: bold;
     line-height: 30px;
@@ -204,8 +204,8 @@ body {
 
 .product-text {
     position: absolute;
-    top: 388px;
-    left: 130px;
+    top: 169px;
+    left: 32px;
     width: 206px;
     font-size: 14px;
     font-weight: 300;
