@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clr-conts {
+    height: 122px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    min-height: 100%;
+    min-width: 1366px;
+    margin: 0 auto;
+}
+
+.header_cont {
+    min-width: 100%;
+    min-height: 360px;
+    padding-top: 63px;
+    background-color: #f5f5f5;
+}
+
+.header_cont .logo {
+    margin-top: 64px;
+    margin-left: 98px;
+}
+
+.menu_cont {
+    float: right;
+    margin-top: 64px;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    padding: 10px 13px;
+}
+
+.menu-link a {
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+}
+
+.menu-link-active {
+    text-decoration: none;
+    font-weight: bold;
+    color: #212121;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+
+.header-conts {
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 72px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #262626;
+    margin-top: 176px;
+    margin-left: 101px;
+    margin-bottom: 56px;
+}
+
+.col-md-4 {
+    margin: 0 auto;
+    margin-top: 71px;
+}
+
+.cont_ts {
+    margin: 0 auto;
+    max-width: 370px;
+    max-height: 370px;
+    opacity: 0.9;
+    border: solid 1px #9b9b9b;
+    background-color: #ffffff;
+    font-family: icomoon;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #262626;
+}
+
+.cont_ts img {
+    margin-top: 48px;
+}
+
+.conts_h {
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    color: #262626;
+}
+
+.conts {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: center;
+    color: #6c6c6c;
+    margin-bottom: 63px;
+}
+
+.conts1 {
+    font-weight: bold;
+}
+
+.conts2 {
+    font-weight: bold;
+    color: #262626;
+}
+
+.clr {
+    height: 122px;
+}

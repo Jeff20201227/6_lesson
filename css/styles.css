@@ -3,8 +3,21 @@
     padding: 0;
 }
 
-body {
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
+}
+
+.clr {
+    height: 384px;
 }
 
 .clearfix:after {
@@ -19,13 +32,14 @@ body {
 }
 
 .container {
+    min-height: 100%;
     width: 1366px;
     margin: 0 auto;
 }
 
 .slider {
-    min-height: 800px;
-    background-image: url(img/slider-img.jpg);
+    height: 800px;
+    background-image: url(../img/slider-header.jpg);
     position: relative;
 }
 
@@ -51,16 +65,22 @@ body {
     padding: 10px 13px;
 }
 
+.menu-link a {
+    text-decoration: none;
+}
+
 .menu-link:hover {
+    text-decoration: none;
     color: #212121;
     font-weight: bold;
 }
 
 .menu-link-active {
+    text-decoration: none;
     font-weight: bold;
     color: #212121;
     letter-spacing: 1.4px;
-    border-bottom: 3px solid 212121;
+    border-bottom: 3px solid #212121;
 }
 
 .slider-text {
@@ -321,7 +341,7 @@ body {
     position: relative;
     width: 683px;
     height: 683px;
-    background-image: url(img/promo-img-1.jpg);
+    background-image: url(../img/promo-img-1.jpg);
     margin-bottom: 119px;
 }
 
@@ -386,7 +406,7 @@ body {
     position: relative;
     width: 683px;
     height: 683px;
-    background-image: url(img/promo-img.jpg);
+    background-image: url(../img/promo-img.jpg);
 }
 
 .Trending_Products {
@@ -433,7 +453,7 @@ body {
     margin-top: 120px;
     width: 1366px;
     height: 800px;
-    background-image: url(img/slider.jpg);
+    background-image: url(../img/slider.jpg);
 }
 
 .hot_deal {
@@ -493,7 +513,7 @@ body {
 }
 
 .pagination2 {
-    width: 1170px;
+    width: 100%;
     bottom: 19px;
     position: absolute;
     text-align: center;
@@ -512,7 +532,7 @@ body {
     position: relative;
     width: 570px;
     height: 570px;
-    background-image: url(img/product-1-lg.jpg);
+    background-image: url(../img/product-1-lg.jpg);
     margin-bottom: 120px;
 }
 
@@ -540,7 +560,7 @@ body {
     margin-top: 240px;
     width: 1366px;
     height: 516px;
-    background-image: url(img/back-img.jpg);
+    background-image: url(../img/back-img.jpg);
 }
 
 .mob_p {
@@ -598,6 +618,7 @@ footer {
     width: 1366px;
     height: 384px;
     background-color: #f7f7f7;
+    margin: 0 auto;
     overflow: hidden;
 }
 
