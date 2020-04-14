@@ -41,19 +41,24 @@ body {
 
 .conteinner {
     min-height: 100%;
-    width: 1366px;
+    max-width: 1366px;
+    min-width: 400px;
     margin: 0 auto;
 }
 
 .slider {
     max-width: 100%;
+    min-width: 1171px;
     height: 800px;
     background-image: url(../img/slider-header.jpg);
     position: relative;
+    margin: 0 auto;
 }
 
 .header {
     padding-top: 63px;
+    min-width: 515px;
+    max-width: 100%;
 }
 
 .menu {
@@ -163,10 +168,9 @@ body {
 }
 
 .pagination {
-    width: 1170px;
-    bottom: 19px;
-    position: absolute;
+    max-width: 100%;
     text-align: center;
+    margin-top: 120px;
 }
 
 .circle {
@@ -191,7 +195,8 @@ body {
 
 .product1_4 {
     position: relative;
-    width: 1171px;
+    max-width: 100%;
+    min-width: 1171px;
 }
 
 .Featured_1 {
@@ -341,8 +346,6 @@ body {
     position: absolute;
     top: 218px;
     left: 96px;
-    width: 270px;
-    height: 270px;
 }
 
 .featured-pictures-list-hover:hover {
@@ -405,7 +408,7 @@ body {
 
 .promo {
     position: relative;
-    width: 683px;
+    max-width: 683px;
     height: 683px;
     background-image: url(../img/promo-img-1.jpg);
     margin-bottom: 119px;
@@ -477,6 +480,9 @@ body {
 
 .Trending_Products {
     position: relative;
+    max-width: 100%;
+    min-width: 1171px;
+    margin: 0 auto;
 }
 
 .Trending {
@@ -517,7 +523,8 @@ body {
 .hot-deals_block {
     position: relative;
     margin-top: 120px;
-    width: 1366px;
+    max-width: 100%;
+    min-width: 1366px;
     height: 800px;
     background-image: url(../img/slider.jpg);
 }
@@ -587,7 +594,8 @@ body {
 
 .product_lg {
     margin: 0 auto;
-    width: 1170px;
+    min-width: 1170px;
+    max-width: 100%;
     height: 570px;
 }
 
@@ -623,7 +631,8 @@ body {
 .mob_app {
     position: relative;
     margin-top: 240px;
-    width: 1366px;
+    min-width: 1366px;
+    max-width: 100%;
     height: 516px;
     background-image: url(../img/back-img.jpg);
 }
@@ -714,6 +723,7 @@ footer {
     left: 899px;
 }
 
+
 .footer-adress {
     display: inline-block;
     position: absolute;
@@ -787,7 +797,7 @@ input[type=EMail] {
     left: 898px;
     width: 370px;
     height: 48px;
-    font-size: 14px;
+    font-size: 14;
     margin-right: 98px;
 }
 

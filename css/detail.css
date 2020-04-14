@@ -150,7 +150,8 @@
 }
 
 .navbar-nav {
-    width: 647px;
+    min-width: 647px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-family: Montserrat;
