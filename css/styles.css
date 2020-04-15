@@ -25,6 +25,7 @@ html,
 body {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .clr {
@@ -175,7 +176,8 @@ body {
 .pagination {
     max-width: 100%;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 8%;
+    margin-left: 50%;
 }
 
 .circle {
@@ -344,15 +346,15 @@ body {
 }
 
 .featured-pictures-list-hover {
-    width: 268px;
-    height: 268px;
+    width: 257px;
+    height: 269px;
     border: 1px solid #9c9c9c;
     background-color: #ffffff;
     opacity: 0.8;
     text-align: center;
     position: absolute;
-    top: 218px;
-    left: 96px;
+    top: 219px;
+    left: 97px;
 }
 
 .featured-pictures-list-hover:hover {
@@ -863,6 +865,273 @@ input[type=EMail] {
 }
 
 /*=====================================    Адаптив    ======================================*/
-@media(min-width: 0px) and (max-width: 640px) {
+@media (max-width: 320px) {
+    .conteinner {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .slider {
+        max-width: 320px;
+        background-image: url(../img/slider-header%20-%20mobile.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .header {
+        max-width: 200px;
+    }
+
+    .header img {
+        width: 90px;
+        margin-left: -17%;
+        margin-top: -20%;
+    }
+
+    .menu {
+        display: grid;
+        float: none;
+        max-width: 300px;
+        font-size: 12px;
+        margin-left: -15%;
+        margin-top: -9%;
+    }
+
+    .menu-link {
+        font-size: 12px;
+
+    }
+
+    .menu img {
+        width: 23px;
+        height: 23px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .slider-text {
+        margin-top: 50px;
+        max-width: 300px;
+        margin-left: -9%;
+    }
+
+    .pagination {
+        max-width: 100%;
+        text-align: center;
+        margin-top: 5%;
+        margin-left: -5%;
+    }
+
+    .circle {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #c7c7c7;
+        margin: 5px;
+    }
+
+    .circle:hover {
+        background-color: #212121;
+    }
+
+    .circle-active {
+        width: 40px;
+        height: 40px;
+        background-color: #212121;
+        margin-bottom: 0;
+    }
+
+    .product1_4 {
+        position: relative;
+        max-width: 320px;
+        min-width: 320px;
+        margin-left: -22%;
+        margin-top: -60%;
+    }
+
+    .promo {
+        max-width: 320px;
+        background-image: url(../img/promo-img-1%20-%20mobile.jpg);
+        background-repeat: no-repeat;
+        height: 320px;
+    }
+
+    .promo_p {
+        top: 5px;
+        left: 25px;
+    }
+
+    .promo_h2 {
+        top: 40px;
+        left: 22px;
+        max-width: 100px;
+    }
+
+    .promo-content {
+        top: 145px;
+        left: 20px;
+        width: 225px;
+    }
+
+    .button2 {
+        top: 245px;
+        left: 15px;
+    }
+
+    .Trending_Products {
+        max-width: 320px;
+        min-width: 320px;
+        margin-left: -23%;
+    }
+
+    .images img {
+        max-width: 320px;
+        margin-left: -5px;
+    }
+
+    .product2 {
+        padding: 0px 0px;
+    }
+
+    .hot-deals_block {
+        margin-top: 70px;
+        background-image: url(../img/slider-mobile.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .hot_deal {
+        top: -3px;
+        left: 15px;
+        font-size: 18px;
+    }
+
+    .slider2-h2 {
+        top: 40px;
+        left: 0px;
+        font-size: 30px;
+        max-width: 200px;
+    }
+
+    .slider-content2 {
+        top: 92px;
+        left: 1px;
+        font-size: 10px;
+        max-width: 200px;
+    }
+
+    .button3 {
+        top: 180px;
+        left: 5px;
+    }
+
+    .product_lg {
+        margin-left: -25%;
+        margin-top: -157%;
+        min-width: 320px;
+        max-width: 320px;
+    }
+
+    .promo3 {
+        background-image: url(../img/product-1-lg%20-%20mobile.jpg);
+        background-repeat: no-repeat;
+        margin-bottom: 0px;
+    }
+
+    .promo-content {
+        width: 202px;
+    }
+
+    .button2 {
+        top: 260px;
+        left: 2px;
+    }
+
+    .mob_app {
+        min-width: 320px;
+        margin-top: 0px;
+        background-color: #f7f7f7;
+        background-image: url(../img/back-img%20-%20mobile.jpg);
+        background-repeat: no-repeat;
+        min-height: 167px;
+    }
+
+    .mob_p {
+        top: -5px;
+        left: 8px;
+        font-size: 14px;
+    }
+
+    .mob_h2 {
+        top: 28px;
+        left: 7px;
+        width: 70px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 14px;
+    }
+
+    .mob_content {
+        position: absolute;
+        top: 45px;
+        left: 7px;
+        margin-top: 26px;
+        height: 413px;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 18px;
+        text-align: left;
+        color: #6c6c6c;
+        max-width: 120px;
+    }
     
+    .clr {
+        height: 25px;
+        margin-top: -75px;
+    }
+
+    footer {
+        max-width: 320px;
+    }
+
+    .footer_p1 {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+    }
+
+    .footer-adress {
+        display: inline-block;
+        position: absolute;
+        top: 52px;
+        left: 15px;
+    }
+
+    .footer-text1 {
+        position: absolute;
+        top: 336px;
+        left: 5px;
+        width: 320px;
+    }
+
+    .social_links {
+        position: absolute;
+        top: 305px;
+        left: 80px;
+    }
+
+    .footer-text2 a {
+        position: absolute;
+        top: 284px;
+        left: -40px;
+        width: 305px;
+    }
+
+    input[type=EMail] {
+        text-align: left;
+        position: absolute;
+        top: 236px;
+        width: 300px;
+        height: 48px;
+        font-size: 14;
+    }
 }
